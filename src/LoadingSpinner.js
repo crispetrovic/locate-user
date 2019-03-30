@@ -2,8 +2,8 @@ import React from 'react';
 
 const LoadingSpinner = (props) => {
     return (
-        <div class="ui active dimmer">
-            <div class="ui huge text loader">
+        <div className="ui active dimmer">
+            <div className="ui huge text loader">
                 {props.message}
             </div>
         </div>
